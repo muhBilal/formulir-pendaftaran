@@ -1,0 +1,502 @@
+body {
+    margin: 30px;
+    padding: 10px;
+}
+
+.kop {
+    float: right;
+    margin-top: -20px;
+    padding-right: 17%;
+    font-size: x-large;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.logo {
+    float: left;
+    height: 20%;
+    width: 20%;
+    margin-top: -33px;
+    margin-left: 40px;
+}
+
+.clear {
+    clear: both;
+}
+
+hr {
+    color: black;
+    background-color: black;
+    border-radius: 7px;
+}
+
+.judul {
+    margin-top: -7px;
+    font-size: x-large;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+h3.petunjuk {
+    margin-left: 25px;
+}
+
+ol.petunjuk {
+    margin-top: -15px;
+}
+
+div.pform {
+    border: 1px solid black;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+input {
+    width: 55%;
+    float: right;
+    margin-right: 10px;
+}
+
+.nama {
+    border: 1px solid black;
+    margin-top: -25px;
+    padding-right: 4px;
+    border-bottom: transparent;
+}
+
+input.nama1 {
+    border: 1px solid black;
+    margin-top: -30px;
+    padding-right: 4px;
+    border-top: transparent;
+}
+
+input.Tujian {
+    margin-top: -33px;
+}
+
+input.lk {
+    position: absolute;
+    left: 240px;
+    /* top: 1px; */
+    bottom: 7px;
+}
+
+label[for="male"] {
+    position: absolute;
+    right: 670px;
+    bottom: 5px;
+}
+
+.vmale {
+    position: relative;
+    bottom: 20px;
+}
+
+.pr {
+    position: absolute;
+    left: 500px;
+    bottom: 1%;
+}
+
+label[for="vmale"] {
+    position: relative;
+    left: 810px;
+    top: -37px;
+}
+
+table.tabel {
+    position: relative;
+    left: 530px;
+    bottom: 13px;
+}
+
+.WaktuKuliah {
+    position: relative;
+    /* color: lawngreen; */
+    /* width: 500px; */
+    /* margin: -6px; */
+    /* text-align: center; */
+}
+
+
+/* label */
+
+label.pagi {
+    position: relative;
+    left: 540px;
+    top: -20px;
+}
+
+label.sore {
+    position: relative;
+    left: 640px;
+    top: -20px;
+}
+
+label.malam {
+    position: relative;
+    left: 740px;
+    top: -20px;
+}
+
+
+/* input table */
+
+input.pagi {
+    position: relative;
+    right: 360px;
+    bottom: 20px;
+}
+
+input.sore {
+    position: relative;
+    right: 220px;
+    bottom: 37px;
+}
+
+input.malam {
+    position: relative;
+    right: 90px;
+    bottom: 53px;
+}
+
+
+/* UkuranJaket */
+
+input.small {
+    position: relative;
+    bottom: 30px;
+    right: 360px;
+}
+
+input.medium {
+    position: relative;
+    bottom: 50px;
+    right: 220px;
+}
+
+input.large {
+    position: relative;
+    bottom: 65px;
+    right: 90px;
+}
+
+input.Elarge {
+    position: relative;
+    bottom: 80px;
+    right: -10px;
+}
+
+
+/* label ukuran */
+
+label.small {
+    position: relative;
+    left: 540px;
+    top: -20px;
+}
+
+label.medium {
+    position: relative;
+    bottom: 20px;
+    left: 635px;
+}
+
+label.large {
+    position: relative;
+    left: 710px;
+    bottom: 20px;
+}
+
+label.Elarge {
+    position: relative;
+    left: 770px;
+    bottom: 20px;
+}
+
+
+/* sistem pembayaran */
+
+input.angsuran {
+    position: relative;
+    bottom: 60px;
+    right: 360px;
+}
+
+input.tunai {
+    position: relative;
+    bottom: 75px;
+    right: 220px;
+}
+
+input.lain {
+    position: relative;
+    bottom: 90px;
+    right: 90px;
+}
+
+
+/* laebl sistem pembayaran */
+
+label.angsuran {
+    position: relative;
+    left: 540px;
+    top: -20px;
+}
+
+label.tunai {
+    position: relative;
+    bottom: 18px;
+    left: 610px;
+}
+
+
+/* data pribadi */
+
+.hr {
+    width: 103%;
+    height: 1px;
+    color: black;
+    margin-left: -40px;
+}
+
+h3 {
+    margin-left: 40px;
+}
+
+div.DataPribadi {
+    margin-left: -40px;
+}
+
+#Tlahir {
+    margin-top: -17px;
+}
+
+.alamat1 {
+    border-bottom: transparent;
+}
+
+.alamat2 {
+    border-top: transparent;
+    border-bottom: transparent;
+}
+
+.alamat3 {
+    border-top: transparent;
+}
+
+.alamat4 {
+    position: relative;
+    top: 19px;
+    left: 368px;
+    width: 350px;
+}
+
+.rt {
+    position: relative;
+    top: 25px;
+    left: 920px;
+}
+
+#rt {
+    position: relative;
+    bottom: 10px;
+    width: 200px;
+}
+
+.kota {
+    width: 330px;
+    position: relative;
+    bottom: 20px;
+    right: 345px;
+}
+
+.Kpos {
+    position: relative;
+    left: 900px;
+    bottom: 15px;
+}
+
+#Kpos {
+    width: 200px;
+    position: relative;
+    bottom: 50px;
+}
+
+#NTrumah {
+    width: 28%;
+    position: relative;
+    right: 110px;
+}
+
+#HP {
+    width: 28%;
+    position: relative;
+    left: 580px;
+}
+
+
+/* kewarganegaraan */
+
+
+/* input */
+
+#WNI {
+    position: relative;
+    right: 330px;
+}
+
+#WNA {
+    position: relative;
+    bottom: 19px;
+}
+
+#GDarah {
+    position: relative;
+    left: 300px;
+    bottom: 33px;
+}
+
+
+/* label */
+
+.wni {
+    position: relative;
+    left: 430px;
+}
+
+.wna {
+    position: relative;
+    left: 730px;
+}
+
+.Gdarah {
+    position: relative;
+    left: 895px;
+}
+
+
+/* identitas wali */
+
+#wali {
+    position: relative;
+    bottom: 20px;
+}
+
+.pns {
+    position: relative;
+    left: 490px;
+}
+
+.swasta {
+    position: relative;
+    left: 590px;
+}
+
+.wiraswasta {
+    position: relative;
+    left: 690px;
+}
+
+.lain {
+    position: relative;
+    left: 790px;
+}
+
+#pns {
+    position: relative;
+    bottom: 20px;
+    right: 333px;
+}
+
+#swasta {
+    position: relative;
+    bottom: 35px;
+    right: 120px;
+}
+
+#wiraswasta {
+    position: relative;
+    bottom: 50px;
+    left: 33px;
+}
+
+#lain {
+    position: relative;
+    bottom: 66px;
+    left: 200px;
+}
+
+
+/* pendidikan terakhir */
+
+.Negri {
+    position: relative;
+    right: 300px;
+    bottom: 16px;
+}
+
+.Swasta {
+    position: relative;
+    bottom: 30px;
+}
+
+.LNegri {
+    position: relative;
+    bottom: 48px;
+    left: 297px;
+}
+
+
+/* input */
+
+label.negri {
+    position: relative;
+    left: 315px;
+    top: 3px;
+}
+
+label.swasta {
+    position: relative;
+    left: 560px;
+    top: 3px;
+}
+
+label.Lnegri {
+    position: relative;
+    top: 3px;
+    left: 780px;
+}
+
+#jurusan {
+    margin-top: -40px;
+}
+
+#Nijazah {
+    margin-top: -20px;
+}
+
+#Tlulus {
+    margin-top: -10px;
+}
+
+#NilaiNEM {
+    margin-top: -8px;
+}
+
+p.catatan {
+    float: left;
+}
+
+#note {
+    font-family: Arial;
+    margin: 10px 0 200px;
+}
+
+.sign {
+    position: absolute;
+    margin-top: 100px;
+    right: 0;
+    text-align: center;
+}
